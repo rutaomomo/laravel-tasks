@@ -143,7 +143,7 @@ return [
             'username' => env('REDIS_USERNAME'),
             'password' => env('REDIS_PASSWORD'),
             'port' => env('REDIS_PORT', '6379'),
-            'database' => env('AZURE_REDIS_PORT', '1'),
+            'database' => env('AZURE_REDIS_DATABASE', '1'),
             'schene' => 'tls',
         ],
 
